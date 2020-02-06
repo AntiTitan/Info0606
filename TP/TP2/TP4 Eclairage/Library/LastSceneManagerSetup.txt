@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/minaw/Documents/S6/Info0606/TP/TP2/TP3 Camera/Assets/Scenes/SampleScene.unity
+  isLoaded: 1
+  isActive: 1
