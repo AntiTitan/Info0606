@@ -12,7 +12,7 @@ public class Realisation : MonoBehaviour
     void Start()
     {
         CameraRobot = GameObject.Find("Camera_robot").GetComponent<Camera>();
-        CameraCube = GameObject.Find("Camera_cube").GetComponent<Camera>();
+        //CameraCube = GameObject.Find("Camera_cube").GetComponent<Camera>();
         CameraMain = GameObject.Find("Camera_main").GetComponent<Camera>();
         MainCamera = GameObject.Find("MainCamera").GetComponent<Camera>();
     }
@@ -30,7 +30,7 @@ public class Realisation : MonoBehaviour
             MainCamera.gameObject.SetActive(false);
             CameraRobot.gameObject.SetActive(true);
             CameraMain.gameObject.SetActive(false);
-            CameraCube.gameObject.SetActive(false);
+            //CameraCube.gameObject.SetActive(false);
         }
         if (Input.GetKey(KeyCode.M))
         {
@@ -42,8 +42,9 @@ public class Realisation : MonoBehaviour
             MainCamera.gameObject.SetActive(false);
             CameraMain.gameObject.SetActive(true);
             CameraRobot.gameObject.SetActive(false);
-            CameraCube.gameObject.SetActive(false);
+            //CameraCube.gameObject.SetActive(false);
         }
+        /*
         if (Input.GetKey(KeyCode.C))
         {
             // CameraRobot.enabled = false;
@@ -55,7 +56,7 @@ public class Realisation : MonoBehaviour
             CameraCube.gameObject.SetActive(true);
             CameraMain.gameObject.SetActive(false);
             CameraRobot.gameObject.SetActive(false);
-        }
+        }*/
         if (Input.GetKey(KeyCode.P))
         {
             // CameraRobot.enabled = false;
@@ -64,7 +65,7 @@ public class Realisation : MonoBehaviour
 
             //ou
             MainCamera.gameObject.SetActive(true);
-            CameraCube.gameObject.SetActive(false);
+            //CameraCube.gameObject.SetActive(false);
             CameraMain.gameObject.SetActive(false);
             CameraRobot.gameObject.SetActive(false);
         }
