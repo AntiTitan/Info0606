@@ -18,16 +18,13 @@ void OnCollisionEnter(Collision collision)
 	{
         if(collision.gameObject.name == "StartQuad"){
             flag = true;
-            Debug.Log ("Message collision visible");
         }
-		
 	}
 
 void OnCollisionExit(Collision collision)
 	{
         if(collision.gameObject.name == "StartQuad"){
             flag = false;
-            Debug.Log ("Message collision caché");
         }
 	}
 
