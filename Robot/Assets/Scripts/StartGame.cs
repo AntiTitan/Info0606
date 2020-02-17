@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StartGame : MonoBehaviour
 {
-    GameObject StartQuad;
+   
 
     public GameObject SphereNoire;
     public GameObject SphereRose;
@@ -28,8 +28,7 @@ public class StartGame : MonoBehaviour
     }
     void Start()
     {
-        StartQuad = GameObject.FindGameObjectWithTag("StartQuad");
-        //Robot = GameObject.FindGameObjectWithTag("Robot");
+
     }
     void OnCollisionEnter(Collision collision)  
         {
@@ -44,8 +43,7 @@ public class StartGame : MonoBehaviour
                 flagMessageDebut = false;
                 flagDebutJeu = true;
                 Debug.Log ("Sphères créées");
-                createSpheres();
-                
+                createSpheres(); 
             }
             
         }

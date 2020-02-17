@@ -15,6 +15,7 @@ TagManager:
   - ActivationZoneTest
   - StartQuad
   - Sol
+  - Camera_Secrete
   layers:
   - Default
   - TransparentFX
